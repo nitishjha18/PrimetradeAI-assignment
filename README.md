@@ -19,7 +19,7 @@ The project demonstrates best practices including:
 - Type-safe database operations with Prisma ORM
 - Request validation using Zod schemas
 - Centralized error handling
-- Security-first authentication approach
+- Security-first authentication approach`
 - OpenAPI 3.0 documentation
 
 ## ✨ Features
