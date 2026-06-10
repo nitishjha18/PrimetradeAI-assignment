@@ -83,7 +83,7 @@ backend/
 │   │   └── prisma.ts                  # Shared Prisma client singleton
 │   ├── middlewares/
 │   │   ├── auth.middleware.ts         # JWT verification & token extraction
-│   │   ├── rbac.middleware.ts         # Role-based access control
+│   │   ├── role.middleware.ts         # Role-based access control
 │   │   └── error.middleware.ts        # Global error handling
 │   ├── modules/
 │   │   ├── auth/
@@ -615,7 +615,7 @@ CMD ["npm", "start"]
 3. Copy the connection string to `DATABASE_URL`
 4. Run migrations: `npm run prisma:migrate`
 
-### Frontend Deployment (Next.js)
+### Frontend Deployment (React.js + Vite)
 
 Deploy to [Vercel](https://vercel.com):
 
@@ -651,9 +651,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Contact
 
-- **Project Repository**: [GitHub](https://github.com/primetrade/primetrade-task-api)
+- **Project Repository**: [GitHub](https://github.com/nitishjha18/PrimetradeAI-assignment)
 - **Issues**: Please open an issue on GitHub for bug reports or feature requests
-- **Internship Program**: [Primetrade.ai](https://primetrade.ai)
 
 ## 🙏 Acknowledgments
 
@@ -663,6 +662,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Last Updated**: June 9, 2024  
+**Last Updated**: June, 2026  
 **Version**: 1.0.0  
 **Status**: Active Development
